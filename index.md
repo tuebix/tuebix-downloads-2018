@@ -9,6 +9,7 @@
 - [holger-gantikow-do-containers-still-not-contain-what-s-new-in-container-security.pdf](./holger-gantikow-do-containers-still-not-contain-what-s-new-in-container-security.pdf)
 - [lukas-kallies-linux-server--und-desktop-lifecycle-management.pdf](./lukas-kallies-linux-server--und-desktop-lifecycle-management.pdf)
 - [marius-heyn-welche-auswirkungen-hat-die-eu-dsgvo-auf-die-software-entwicklung.pdf](./marius-heyn-welche-auswirkungen-hat-die-eu-dsgvo-auf-die-software-entwicklung.pdf)
+- [michael-sperber-web-applikationen-und-uis-funktional-programmieren-mit-reacl.pdf](./michael-sperber-web-applikationen-und-uis-funktional-programmieren-mit-reacl.pdf)
 - [michael-stroeder-ae-dir-paranoide-benutzerverwaltung-mit-openldap.pdf](./michael-stroeder-ae-dir-paranoide-benutzerverwaltung-mit-openldap.pdf)
 - [michael-weiss-einfuehrung-in-nix-und-nixos.pdf](./michael-weiss-einfuehrung-in-nix-und-nixos.pdf)
 - [olaf-flebbe-python-performance-for-plants-and-profit.pdf](./olaf-flebbe-python-performance-for-plants-and-profit.pdf)
