@@ -5,6 +5,7 @@
 - [adrian-reber-christian-brauner-optimized-container-live-migration.pdf](./adrian-reber-christian-brauner-optimized-container-live-migration.pdf)
 - [adrian-reber-einfuehrung-in-openhpc.pdf](./adrian-reber-einfuehrung-in-openhpc.pdf)
 - [daniel-kobras-zfs-encryption.pdf](./daniel-kobras-zfs-encryption.pdf)
+- [elizaveta-tretiakova-hotplugging-mounts-into-processes.pdf](./elizaveta-tretiakova-hotplugging-mounts-into-processes.pdf)
 - [felix-bauer-app-separation-no-need-containers.pdf](./felix-bauer-app-separation-no-need-containers.pdf)
 - [felix-bauer-peekabooav.pdf](./felix-bauer-peekabooav.pdf)
 - [felix-bauer-security-basics-sniffing-und-scanning.pdf](./felix-bauer-security-basics-sniffing-und-scanning.pdf)
