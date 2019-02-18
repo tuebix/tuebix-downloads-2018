@@ -1,0 +1,315 @@
+From 2018-06-09@guckes.net Sat Jun  9 14:00:00 2018
+From: Sven Guckes <tuebix2018@guckes.net>
+Subject: NEOmutt - so NEO!
+X-URL: http://www.guckes.net/talks/neomutt/neomutt_so_neo.txt
+X-URL: http://www.guckes.net/talks/neomutt/neomutt_so_neo.html
+Created:       Mon Jan 22 11:42:23 CET 2018
+Latest_change: Sat Jun 09 16:05:42 CEST 2018
+
+                                       _    _
+ _ __    ___   ___   _ __ ___   _   _ | |_ | |_
+| '_ \  / _ \ / _ \ | '_ ` _ \ | | | || __|| __|
+| | | ||  __/| (_) || | | | | || |_| || |_ | |_
+|_| |_| \___| \___/ |_| |_| |_| \__,_| \__| \__|
+
+ ___   ___    _ __    ___   ___
+/ __| / _ \  | '_ \  / _ \ / _ \
+\__ \| (_) | | | | ||  __/| (_) |
+|___/ \___/  |_| |_| \___| \___/
+
+                         _
+ _ __ ___   _   _   ___ | |__   __      __ ___ __      __
+| '_ ` _ \ | | | | / __|| '_ \  \ \ /\ / // _ \\ \ /\ / /
+| | | | | || |_| || (__ | | | |  \ V  V /| (_) |\ V  V /
+|_| |_| |_| \__,_| \___||_| |_|   \_/\_/  \___/  \_/\_/
+
+                         __  _
+__      __ ___    ___   / _|| |
+\ \ /\ / // _ \  / _ \ | |_ | |
+ \ V  V /| (_) || (_) ||  _||_|
+  \_/\_/  \___/  \___/ |_|  (_)
+
+
+From 2018-06-09@guckes.net Sat Jun  9 14:00:00 2018
+From: Sven Guckes <tuebix2018@guckes.net>
+Subject: Why NEOmutt?
+
+= DE =
+
+Was gibt es Neues?
+
+mutt gibt es seit 1996 - und neomutt seit 2016.
+neomutt wollte die vielen Patches integrieren.
+Es bildet nun die Grundlage für weiteren Fortschritt.
+Die vielen Änderungen machen es nun zu einem "fork".
+Aber Neomutt will weiterhin alle Änderungen
+"upstream" an mutt weitergeben.
+
+= EN =
+
+What's new in neomutt?
+
+mutt has been about since 1996 - and neomutt since 2016.
+neomutt started as yet another patch set (just like mutt-ng),
+but the many changes already made make it a fork by now.
+the main change is that there is finally progress in some directions.
+however, neomutt will incorporate all changes to mutt as well.
+
+dev:  mutt is still evolving, and neomutt is adopting all its changes.
+code: neomutt has refactored a lot and beautified the code.
+fork: there are relatively few people reading mail in a terminal.
+      the split does not help either that much.
+
+From 2018-06-09@guckes.net Sat Jun  9 14:00:00 2018
+From: Sven Guckes <tuebix2018@guckes.net>
+Subject: Old Features
+
+one job, one tool! ->
+not an editor, not a filter, not an MTA or MDA,
+not an addressbook, not a crypto tool..
+
+* fast!
+* configurable!  (440+ options)
+    neomutt -D | wc -l  -> 377
+
+Config:
+* key binding + macros
+    macro index ,, <limit>~N ~d<2w ! ~=\n
+* colors!
+    index, pager: header+body
+* headers:
+    choose selection, order, and color
+* display_filter (sed!)
+    "filter message through external command before display"
+* hooks
+    account-hook charset-hook crypt-hook fcc-hook fcc-save-hook folder-hook
+    iconv-hook mbox-hook message-hook reply-hook save-hook send2-hook
+    send-hook shutdown-hook startup-hook timeout-hook append-hook
+
+Commands:
+* tag + tag-pattern + tag-prefix:
+    apply next command to apply to all tagged messages
+* limit by pattern:
+    "show only messages matching a pattern"
+* list-reply
+    "reply to the *list* only"
+* bounce vs forward
+    bounce:  send message withOUT touching the body or standard header lines
+    forward: send message as yourself; changes header and body immensely :-/
+* resend-message
+    re-use current message as a template
+
+* openpgp -> gnupg | S/MIME
+
+Display:
+* mailboxes menu
+* sidebar (folders+newsgroups)
+
+what happened so far?  generally: change+progress!
+
+patch or fork? (remember muttng?)
+2017-12: neomutt installs as mutt (argh)
+FFG2019: neomutt meetup?
+
+From 2018-06-09@guckes.net Sat Jun  9 14:00:00 2018
+From: Sven Guckes <tuebix2018@guckes.net>
+Subject: New Features!
+
+* startup progress bar
+* coloring parts of index
+* sidebar
+
+https://www.neomutt.org/feature.html
+
+From 2018-06-09@guckes.net Sat Jun  9 14:00:00 2018
+From: Sven Guckes <tuebix2018@guckes.net>
+Subject: NEW: Attach Headers Color
+
+* Attach Headers Color
+  https://neomutt.org/feature/attach-headers-color
+* Compose to Sender -> @ compose-to-sender
+* Compressed Folders
+* Conditional Dates
+* Custom backend based Tags
+* Encrypt-to-Self
+* Fmemopen
+* Forgotten Attachment
+* Global Hooks
+* Ifdef
+* Index Color
+* Initials Expando
+* Keywords
+* Kyoto Cabinet
+* Limit Current Thread
+    bind index ö      limit-current-thread
+    bind index <esc>L limit-current-thread
+* LMDB
+* Multiple FCC
+* Nested If
+* New Mail
+* NNTP
+* Notmuch
+* Progress Bar
+* Quasi-Delete
+* Reply With X-Original-To
+* Sensible Browser
+* Sidebar Intro
+* Sidebar
+* Skip Quoted
+* Status Color
+* TLS-SNI
+* Trash Folder
+
+see also: https://www.neomutt.org/news
+
+what is ne[ow]?
+
+Caveat: no groupware integration
+aber: command line tool! -> script!
+
+document viewer: keine internen Anzeigeprogramme
+für Bilder (gif,jpg,png) oder Dokumente (doc,odt,pdf).
+aber: konfiguration von Konverterprogramme
+über ~/mailcap: cacaview,pdftotext
+
+  converters:  antiword, cacaview, odt2txt,
+               pdftotext, rtfreader, unrtf, xls2csv
+  webbrowsers: elinks, lynx, w3m
+
+es gibt einen windows port für cygwin, aber ich habe
+diesen bisher aber noch nicht gesehen (i dont do windows)
+
+the IMAP experience: "nunja" o_O
+es gibt zB keine *übersicht* zur aktuellen Persona
+
+Scope: neomutt shows only *one* folder at a time.
+workaround: use multiple instances (in screen,tmux)
+
+From 2018-06-09@guckes.net Sat Jun  9 14:00:00 2018
+From: Sven Guckes <tuebix2018@guckes.net>
+Subject: Wishes / Wuensche
+
+wish: dialog menu chains, ui/ux, errornumbers
+
+color+hooks+options are invisible with no overview
+
+From 2018-06-09@guckes.net Sat Jun  9 14:00:00 2018
+From: Sven Guckes <tuebix2018@guckes.net>
+Subject: SUMMARY / ZUSAMMENFASSUNG
+
+= DE =
+
+* es hat sich *einiges* getan!
+* doku+website verbessert :)
+* benevolent leader flatcap
+* entwicklung wird besser
+* viele neue features?! :)
+* neomutt workshop, anyone?
+
+feedback und fragen sind *sehr* erwünscht!
+-> bitte eine email an tuebix2018@guckes.net
+
+= EN =
+
+* a *lot* has happened!
+* much better docs+website :)
+* benevolent leader flatcap
+* improved for development
+* many new features to come
+* neomutt workshop, anyone?
+
+please send your feedback and questions to
+-> tuebix2018@guckes.net
+
+From 2018-06-09@guckes.net Sat Jun  9 14:00:00 2018
+From: Sven Guckes <tuebix2018@guckes.net>
+Subject: Upcoming Events
+
+noch ein paar #linux #floss events:
+
+* 2018-03-10/11 Sa+So #clt2018 Chemnitzer Linux-Tage (CLT)    http://chemnitzer.linux-tage.de/2018/
+* 2018-03-30/02 Fr-Di #eh18    @Easterhegg (Würzburg)         https://eh18.easterhegg.eu
+* 2018-04-04/06 Mi-Fr #dhd2018 DANTE Frühjahrstagung (Passau) https://www.dante.de/events/dante2018-1.html #dante2018 #TeXLaTeX
+* 2018-04-21    Sa    #lit18   Linux InfoTag Augsburg (LITA)  http://www.luga.de/Aktionen/LIT-2018/ @lit_augsburg
+* 2018-04-27/28 Fr+Sa #glt18   Grazer Linuxtage               http://www.linuxtage.at/ - cfp: https://www.linuxtage.at/call-for-lectures/
+* 2018-05-03/05 Do-Sa #lww18   LinuxWochen Wien               http://wien.linuxwochen.at/ - https://cfp.linuxwochen.at/de/LWW18/cfp/session/new - #lww2018
+* 2018-05-10/13 Do-So #lugcamp Impro LUG Camp (Leichlingen)   http://www.lugcamp.de
+* 2018-06-23    Sa    #tuebix  Tübix (Tübingen) @tuebix       http://tuebix.org/
+* 2018-08-25/26 Sa+So #froscon FrOSCon #13 (St.Augustin)      https://www.froscon.de/
+* 2018-09-22/23 Sa+So #ds18    #Datenspuren (Dresden)         http://www.datenspuren.de
+* mrmcd, GPN, OpenRheinRuhr Oberhausen, UbuCon (?), T-DOSE, vimfest, LinuxDay Dornbirn, 35C3 (Leipzg?)
+
+noch mehr events: -> cal.guckes.net
+
+** prototypefund.de!
+
+From 2018-06-09@guckes.net Sat Jun  9 14:00:00 2018
+From: Sven Guckes <tuebix2018@guckes.net>
+Subject: EVENTS
+
+this talk appeared at these events:
+
+= 2018-03-02 GUUG FFG =
+
+  From 2018-06-09@guckes.net Fri Mar  2 09:45:00 2018
+  From: NEOmutt <ffg2018@guckes.net>
+  Subject: FFG Intro
+
+* meine erste FFG
+* endlich Leipzig
+* Auerbachs Keller - super!
+* Faust, Goethe, Papa, Deutschstunde
+** https://www.gutenberg.org/files/14591/14591-h/14591-h.htm
+** "Faust by Johann Wolfgang Von Goethe"
+** [The Project Gutenberg eBook]
+** Release Date: January 4, 2005 [EBook #14591]
+** https://www.gutenberg.org/files/14591/14591-h/14591-h.htm#V
+** http://gutenberg.spiegel.de/buch/-3664/8
+* Dank an die Organisatoren
+* Lightning Talks 13:30-14:15 (C5)
+
+= 2018-04-27 Grazer LinuxTage =
+
+  From 2018-04-27-grazer-linuxtage@guckes.net Fri Apr 27 00:00:00 2018
+  From: NEOmutt <glt2018@guckes.net>
+
+= 2018-06-09 Tuebix =
+
+  www.tuebix.org in Tuebingen
+
+  https://www.tuebix.org/2018/programm/sven-guckes-elimar-riesebieter-neomutt/
+  2018-06-09 14:00-14:50 in Raum V1
+  Sven Guckes, Elimar Riesebieter:
+  "Neomutt - der neue Mailer"
+
+From 2018-06-09@guckes.net Sat Jun  9 14:00:00 2018
+From: Sven Guckes <tuebix2018@guckes.net>
+Subject: LINKS
+
+Sven's Setup Files:
+http://www.guckes.net/Setup/mutt.color
+http://www.guckes.net/Setup/mutt.color.body
+http://www.guckes.net/Setup/mutt.color.header
+http://www.guckes.net/Setup/mutt.color.header.agents
+http://www.guckes.net/Setup/mutt.color.index
+http://www.guckes.net/Setup/neomuttrc.color.index
+
+From 2018-06-09@guckes.net Sat Jun  9 14:00:00 2018
+From: Sven Guckes <tuebix2018@guckes.net>
+Subject: THE END
+
+Wenn man eine Datei editiert und die Option "modeline" gesetzt ist,
+dann werden N Zeilen ($modelines) am Anfang und Ende der Datei nach
+"modelines" überprüft und die darin befindlichen Kommandos ausgeführt.
+Damit kann man die Konfiguration für ein bessere Editieren anpassen.
+
+When you edit a file with vim and its last line starts
+with "vim:" then vim will execute the command therein
+(when "modeline" and "modelines" are set).  It is
+a way to adjust the config for a better editing.
+
+see/siehe ":help auto-setting".
+
+hier ist meine modeline für diese Datei:
+this is my modeline for this file/talk:
+vim: set et ft=sven tw=999 nowrap: THPXRF EOF

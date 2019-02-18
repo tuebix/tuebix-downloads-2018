@@ -19,3 +19,4 @@
 - [olaf-flebbe-python-performance-for-plants-and-profit.pdf](./olaf-flebbe-python-performance-for-plants-and-profit.pdf)
 - [rainer-grimm-best-practices-fuer-concurrency-oder-was-wir-schmerzhaft-gelernt-haben.pdf](./rainer-grimm-best-practices-fuer-concurrency-oder-was-wir-schmerzhaft-gelernt-haben.pdf)
 - [stefan-baur-x2go-thin-client-edition-tce-open-source-als-mittler-zwischen-den-welten.pdf](./stefan-baur-x2go-thin-client-edition-tce-open-source-als-mittler-zwischen-den-welten.pdf)
+- [sven-guckes-elimar-riesebieter-neomutt.txt](./sven-guckes-elimar-riesebieter-neomutt.txt)
