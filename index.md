@@ -1,7 +1,5 @@
 # Index
 
-<!-- git ls-files | grep -E "*.pdf$" | sed -E "s/(.*)/- [\1](.\/\1)/" -->
-
 - [README.md](./README.md)
 - [adrian-reber-christian-brauner-optimized-container-live-migration.pdf](./adrian-reber-christian-brauner-optimized-container-live-migration.pdf)
 - [adrian-reber-einfuehrung-in-openhpc.pdf](./adrian-reber-einfuehrung-in-openhpc.pdf)
