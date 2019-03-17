@@ -12,6 +12,7 @@
 - [felix-bauer-security-basics-sniffing-und-scanning.pdf](./felix-bauer-security-basics-sniffing-und-scanning.pdf)
 - [gerhard-klostermeier-rfid-nfc-grundlagen.pdf](./gerhard-klostermeier-rfid-nfc-grundlagen.pdf)
 - [holger-gantikow-do-containers-still-not-contain-what-s-new-in-container-security.pdf](./holger-gantikow-do-containers-still-not-contain-what-s-new-in-container-security.pdf)
+- [knut-franke-prokrastination-panik-doku-pauken-was-hilft-bei-der-migration-auf-python3.pdf](./knut-franke-prokrastination-panik-doku-pauken-was-hilft-bei-der-migration-auf-python3.pdf)
 - [lukas-kallies-linux-server--und-desktop-lifecycle-management.pdf](./lukas-kallies-linux-server--und-desktop-lifecycle-management.pdf)
 - [marius-heyn-welche-auswirkungen-hat-die-eu-dsgvo-auf-die-software-entwicklung.pdf](./marius-heyn-welche-auswirkungen-hat-die-eu-dsgvo-auf-die-software-entwicklung.pdf)
 - [michael-sperber-web-applikationen-und-uis-funktional-programmieren-mit-reacl.pdf](./michael-sperber-web-applikationen-und-uis-funktional-programmieren-mit-reacl.pdf)
