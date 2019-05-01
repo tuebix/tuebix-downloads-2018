@@ -18,6 +18,8 @@
 - [knut-franke-prokrastination-panik-doku-pauken-was-hilft-bei-der-migration-auf-python3.pdf](./knut-franke-prokrastination-panik-doku-pauken-was-hilft-bei-der-migration-auf-python3.pdf)
 - [lukas-kallies-linux-server--und-desktop-lifecycle-management.pdf](./lukas-kallies-linux-server--und-desktop-lifecycle-management.pdf)
 - [marius-heyn-welche-auswirkungen-hat-die-eu-dsgvo-auf-die-software-entwicklung.pdf](./marius-heyn-welche-auswirkungen-hat-die-eu-dsgvo-auf-die-software-entwicklung.pdf)
+- [mark-proehl-automatisierte-testumgebungen-mit-ansible-und-vagrant.pdf](./mark-proehl-automatisierte-testumgebungen-mit-ansible-und-vagrant.pdf)
+- [mark-proehl-einheitliche-linux-benutzerverwaltung-mit-active-directory.pdf](./mark-proehl-einheitliche-linux-benutzerverwaltung-mit-active-directory.pdf)
 - [michael-sperber-web-applikationen-und-uis-funktional-programmieren-mit-reacl.pdf](./michael-sperber-web-applikationen-und-uis-funktional-programmieren-mit-reacl.pdf)
 - [michael-stroeder-ae-dir-paranoide-benutzerverwaltung-mit-openldap.pdf](./michael-stroeder-ae-dir-paranoide-benutzerverwaltung-mit-openldap.pdf)
 - [michael-weiss-einfuehrung-in-nix-und-nixos.pdf](./michael-weiss-einfuehrung-in-nix-und-nixos.pdf)
@@ -25,6 +27,8 @@
 - [rainer-grimm-best-practices-fuer-concurrency-oder-was-wir-schmerzhaft-gelernt-haben.pdf](./rainer-grimm-best-practices-fuer-concurrency-oder-was-wir-schmerzhaft-gelernt-haben.pdf)
 - [stefan-baur-x2go-thin-client-edition-tce-open-source-als-mittler-zwischen-den-welten.pdf](./stefan-baur-x2go-thin-client-edition-tce-open-source-als-mittler-zwischen-den-welten.pdf)
 - [sven-guckes-elimar-riesebieter-neomutt.txt](./sven-guckes-elimar-riesebieter-neomutt.txt)
+- [udo-seidel-opensource-ois-easy-oder.pdf](./udo-seidel-opensource-ois-easy-oder.pdf)
+- [udo-seidel-unterwasser-statt-in-der-erde.pdf](./udo-seidel-unterwasser-statt-in-der-erde.pdf)
 
 ## Audio
 
