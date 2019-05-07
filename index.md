@@ -33,6 +33,7 @@
 
 - [adrian-reber-christian-brauner-optimized-container-live-migration.ogg](adrian-reber-christian-brauner-optimized-container-live-migration.ogg)
 - [adrian-reber-einfuehrung-in-openhpc.ogg](adrian-reber-einfuehrung-in-openhpc.ogg)
+- [andré-niemann-ssh-einfach-sicher-verstehen.ogg](andré-niemann-ssh-einfach-sicher-verstehen.ogg)
 - [axel-beckert-von-ueberall-her-per-tor-auf-seinen-rechner-gelangen.ogg](axel-beckert-von-ueberall-her-per-tor-auf-seinen-rechner-gelangen.ogg)
 - [christian-brauner-linux-device-management-making-the-kernel-and-udev-namespace-aware.ogg](christian-brauner-linux-device-management-making-the-kernel-and-udev-namespace-aware.ogg)
 - [daniel-kobras-zfs-encryption-sichere-datenhaltung-in-der-cloud.ogg](daniel-kobras-zfs-encryption-sichere-datenhaltung-in-der-cloud.ogg)
