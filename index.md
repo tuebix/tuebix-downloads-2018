@@ -13,6 +13,7 @@
 - [felix-bauer-peekabooav.pdf](felix-bauer-peekabooav.pdf)
 - [felix-bauer-security-basics-sniffing-und-scanning.pdf](felix-bauer-security-basics-sniffing-und-scanning.pdf)
 - [gerhard-klostermeier-rfid-nfc-grundlagen.pdf](gerhard-klostermeier-rfid-nfc-grundlagen.pdf)
+- [gunnar-piel-das-auto-betriebssystem-der-zukunft.pdf](gunnar-piel-das-auto-betriebssystem-der-zukunft.pdf)
 - [holger-gantikow-do-containers-still-not-contain-what-s-new-in-container-security.pdf](holger-gantikow-do-containers-still-not-contain-what-s-new-in-container-security.pdf)
 - [knut-franke-prokrastination-panik-doku-pauken-was-hilft-bei-der-migration-auf-python3.pdf](knut-franke-prokrastination-panik-doku-pauken-was-hilft-bei-der-migration-auf-python3.pdf)
 - [lukas-kallies-linux-server--und-desktop-lifecycle-management.pdf](lukas-kallies-linux-server--und-desktop-lifecycle-management.pdf)
